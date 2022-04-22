@@ -6,6 +6,11 @@ int main() {
   int areaMax = 0;
   int aMax = 0;
   int bMax = 0;
+  std::string start;
+  do{
+    std::cout << "Enter RUN to start\n ";
+    std::cin >> start;
+  }while(start!="RUN");
   std::cout<<"HELP FOR UNCLE McDONALD\n";
   std::cout<<"Enter the number of fence segments\n";
   std::cin >> x;
